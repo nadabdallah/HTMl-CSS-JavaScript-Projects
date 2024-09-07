@@ -1,0 +1,29 @@
+* ,::after ,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #eff8e2;
+}
+.header_h1{
+    padding: 15px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    gap:40px;
+    margin: 20px 0 10px;
+}
+.Choose{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.btn{
+    margin:10px 60px 0px;
+}
+.reload{
+    display: none;
+}
