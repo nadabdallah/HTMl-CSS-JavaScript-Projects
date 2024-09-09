@@ -1,0 +1,48 @@
+*,::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: rgb(207, 224, 159);
+}
+main{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+}
+.header_h1{
+    color: rgb(12, 78, 12);
+    margin-bottom: 20px;
+}
+.input_container{
+    margin: 10px 0 25px;
+}
+input{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid rgb(12, 78, 12);
+    text-align: center;
+}
+input[type="number"]:focus{
+    border: 2px solid rgb(12, 78, 12);
+}
+.btn{
+    border-radius: 20px ;
+    padding: 0 20px 4px;
+    margin: 0 10px;
+}
+.result_container{
+    margin: 20px 0;
+    background-color: rgb(47, 71, 11);
+    height: 100px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 25px;
+    color: antiquewhite;
+    font-size: 20px;
+}
