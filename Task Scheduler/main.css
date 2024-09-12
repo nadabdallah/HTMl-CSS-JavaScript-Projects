@@ -1,0 +1,43 @@
+*,::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    background: linear-gradient(135deg, rgb(100, 207, 249),rgb(12, 137, 186) );
+}
+.task_form{
+    padding: 20px;
+    display: flex;
+    gap:25px;
+}
+.add_btn{
+    background: linear-gradient(135deg, rgb(100, 207, 249),rgb(12, 137, 186) );
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.task_list{
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+.mark-done{
+    border: none;
+    background-color: rgb(20, 201, 20);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: fit-content;
+}
